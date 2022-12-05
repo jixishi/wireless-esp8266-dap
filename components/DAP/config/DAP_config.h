@@ -192,8 +192,8 @@ __STATIC_INLINE uint8_t DAP_GetVendorString(char *str)
   // In fact, Keil can get the corresponding information through USB
   // without filling in this information.
   // (void)str;
-  strcpy(str, "windowsair");
-  return (sizeof("windowsair"));
+  strcpy(str, "JXS-DAP");
+  return (sizeof("JXS-DAP"));
 }
 
 /**
@@ -205,8 +205,8 @@ __STATIC_INLINE uint8_t DAP_GetVendorString(char *str)
 __STATIC_INLINE uint8_t DAP_GetProductString(char *str)
 {
   //(void)str;
-  strcpy(str, "CMSIS-DAP v2 JXS");
-  return (sizeof("CMSIS-DAP v2 JXS"));
+  strcpy(str, "CMSIS-DAP v2");
+  return (sizeof("CMSIS-DAP v2"));
 }
 
 /**
