@@ -36,7 +36,7 @@ static struct {
 #define DAP_IP_NETMASK 255, 255, 255, 0
 //
 
-#define USE_OTA              0
+#define USE_OTA              1
 
 #define USE_UART_BRIDGE      0
 #define UART_BRIDGE_PORT     1234
@@ -44,7 +44,7 @@ static struct {
 //
 
 // DO NOT CHANGE
-#define USE_TCP_NETCONN 0
+#define USE_TCP_NETCONN 1
 
 #define PORT                3240
 #define CONFIG_EXAMPLE_IPV4 1
